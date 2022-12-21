@@ -36,4 +36,47 @@ const myInfo = {
 }
 
 
-export {header, myInfo};
+const skills = [
+    {
+        title:'HTML',
+        level:'Expart'
+    },
+    {
+        title:'JavaScript',
+        level:'junior'
+    },
+    {
+        title:'MongoDB',
+        level:'Mid Level'
+    },
+    {
+        title:'HTML',
+        level:'Expart'
+    },
+    {
+        title:'HTML',
+        level:'Expart'
+    },
+    {
+        title:'HTML',
+        level:'Expart'
+    },
+    {
+        title:'HTML',
+        level:'Expart'
+    },
+]
+
+
+const projects = [
+    {
+        
+    }
+]
+
+
+
+
+
+
+export {header, myInfo, skills};

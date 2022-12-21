@@ -1,0 +1,84 @@
+
+
+.skillWrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.skill{
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+  height: 12rem;
+  background: var(--primary);
+  padding:1rem;
+  margin: 2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all .5s;
+}
+
+.skill:hover {
+  border: 0.1rem solid var(--primary);
+  background-color: transparent;
+  transform: scale(1.2);
+}
+
+.skill h3 {
+  font-size: 2rem;
+  color: var(--text);
+  margin-top: 1rem;
+}
+
+.skill h5{
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+}
+
+.skill .junior{
+  color:#feb800;
+}
+.skill .midLevel{
+  color:#ff2d55;
+}
+.skill .expart{
+  color:#2db55d;
+}
+
+.tooltip{
+  position: absolute;
+  top:0rem;
+  width:23rem;
+  background:var(--primary);
+  color: #fff;
+  padding: 1rem 1rem;
+  font-size:1.3rem;
+  border-radius:1rem;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.skill:hover .tooltip{
+  top: -8.5rem;
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1;
+}
+.tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: var(--primary);
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
