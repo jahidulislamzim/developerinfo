@@ -18,7 +18,7 @@ const Header = () => {
             </a>
         </div>
         <div className="navLinkBox">
-          <a href="#h" className="links">
+          <a href="#home" className="links">
             home
           </a>
           <a href="#h" className="links">

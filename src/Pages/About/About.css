@@ -1,0 +1,61 @@
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    margin-top: 5%;
+}
+
+.aboutMe{
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMe p{
+    margin-bottom:1rem;
+}
+
+.aboutMe p span{
+    margin-left:1rem;
+    color:var(--primary)
+}
+
+
+.aboutCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.aboutCard {
+    background: var(--primary);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    color:var(--text);
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.aboutCard:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.aboutIcon{
+    color: var(--color-primary);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.aboutCard h5 {
+    font-size: 1.8rem;
+}
+
+.aboutCard small {
+    font-size: 1.8rem;
+    color: var(--color-light);
+}

@@ -19,11 +19,36 @@ html {
 }
 
 :root{
-  --clr-bg: #fcfcfc;
+  --background: #fcfcfc;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
    --primary: #2978b5;
    --link:#fcfcfc;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --shadow: #64646f33;
+  --transition: all 400ms ease;
+}
+
+.container{
+  width:86%;
+  height:60vh;
+  margin:auto;
+  align-items: center;
+}
+
+.button{
+  text-decoration: none;
+  display: inline-block;
+  font-size:1.5rem;
+  padding:1rem 2rem;
+  border:none;
+  border-radius: 3rem;
+  margin:1rem 0rem;
+  cursor:pointer;
+  background-color:var(--primary);
+  color:var(--background)
+}
+
+.button i{
+  margin-left:0.8rem;
 }
