@@ -31,7 +31,7 @@ html {
 
 .container{
   width:86%;
-  height:60vh;
+  height:80vh;
   margin:auto;
   align-items: center;
 }
@@ -51,4 +51,15 @@ html {
 
 .button i{
   margin-left:0.8rem;
+}
+
+.heading{
+  font-size:5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.heading span{
+  margin-right: 1.5rem;
+  color:var(--primary)
 }

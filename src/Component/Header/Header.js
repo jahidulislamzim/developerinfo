@@ -21,7 +21,7 @@ const Header = () => {
           <a href="#home" className="links">
             home
           </a>
-          <a href="#h" className="links">
+          <a href="#about" className="links">
             about
           </a>
           <a href="#h" className="links">

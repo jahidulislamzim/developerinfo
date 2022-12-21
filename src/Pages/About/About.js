@@ -5,8 +5,9 @@ import './About.css'
 const About = () => {
     const {name} = myInfo;
     return (
-        <article className='container'>
-           <div className='aboutContainer'>
+        <article className='container aboutContainer' id='about'>
+            <h1 className='heading'><span>About</span>Me</h1>
+           <div className='aboutWrapper'>
            <div className='aboutMe'>
                 <p>Name:<span>{name}</span></p>
                 <p>Position:<span>{name}</span></p>
