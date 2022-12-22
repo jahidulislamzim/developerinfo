@@ -1,17 +1,39 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
-    return (
-        <article className='container'>
-            <h1 className="heading"> <span>contact</span> me </h1>
+  return (
+    <article className="container">
+      <h1 className="heading">
+
+        <span>contact</span> me
+      </h1>
+
+      <div className="contactWrapper">
+        <article className="contactBox">
+          <h3>
+
+            <i class="fas fa-envelope"></i> shaikh@gmail.com
+          </h3>
+          <h3>
+
+            <i class="fas fa-phone"></i> +123-456-7890
+          </h3>
+          <h3>
+            <i class="fas fa-phone"></i> +111-222-3333
+          </h3>
+          <h3>
+            <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104.
+          </h3>
         </article>
-    );
+      </div>
+    </article>
+  )
 };
 
 export default Contact;
 
 
-{/* <section class="contact" id="contact">
+  /* <section class="contact" id="contact">
 
 <h1 class="heading"> <span>contact</span> me </h1>
 
@@ -42,4 +64,5 @@ export default Contact;
 
 </div>
 
-</section> */}
+</section> */
+
