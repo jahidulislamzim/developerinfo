@@ -1,10 +1,9 @@
-
-
-.projectWrapper{
-    display: flex;
-    flex-wrap: wrap;
+.projectWrapper {
+	display: flex;
+	flex-wrap: wrap;
 }
-.projectCard{
+
+.projectCard {
 	box-shadow: 0 15px 30px 1px grey;
 	background: rgba(255, 255, 255, 0.90);
 	text-align: center;
@@ -13,33 +12,33 @@
 	margin: 5em auto;
 	height: 25rem;
 	width: 55rem;
-  
-	
+
+
 }
 
 
 
 .projectDetails {
 	position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	overflow: hidden;
-	padding:1rem;
+	padding: 1rem;
 	height: 100%;
 	float: left;
 	width: 60%;
 }
 
-.projectCard .projectDetails h1{
+.projectCard .projectDetails h1 {
 	/* font-family: 'Bebas Neue', cursive; */
 	/* display: i; */
 	position: relative;
-	font-size:3rem;
-    text-align: center;
+	font-size: 3rem;
+	text-align: center;
 	color: #344055;
 	margin: 1rem 0rem;
-	
+
 }
 
 
@@ -47,111 +46,36 @@
 
 
 
-.projectCard .projectDetails  p {
-/* font-family: 'EB Garamond', serif; */
+.projectCard .projectDetails p {
+	/* font-family: 'EB Garamond', serif; */
 	text-align: center;
 	font-size: 1.6rem;
 	color: #7d7d7d;
-    /* margin-bottom:1rem; */
-	
+	/* margin-bottom:1rem; */
+
 }
 
-.projectButtonBox{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.btn {
-
-	transform: translateY(0px);
-	transition: 0.3s linear;
-	background:  #809fff;
-	border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-	cursor: pointer;
-	outline: none;
-	border: none;
-	color: #eee;
-	padding: 0;
-	margin: 0;
-	
+.projectButtonBox {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.btn:hover{transform: translateY(-6px);
-	background: #1a66ff;}
-
-.btn span {
-	font-family: 'Farsan', cursive;
-	transition: transform 0.3s;
-	display: inline-block;
-  padding: 10px 20px;
-	font-size: 1.2em;
-	margin:0;
-	
-}
-.btn .price, .shopping-cart{
-	background: #333;
-	border: 0;
-	margin: 0;
-}
-
-.btn .price {
-	transform: translateX(-10%); padding-right: 15px;
-}
-
-.btn .shopping-cart {
-	transform: translateX(-100%);
-  position: absolute;
-	background: #333;
-	z-index: 1;
-  left: 0;
-  top: 0;
-}
-
-.btn .buy {z-index: 3; font-weight: bolder;}
-
-.btn:hover .price {transform: translateX(-110%);}
-
-.btn:hover .shopping-cart {transform: translateX(0%);}
-
-
-
-.productImage{
-	transition: all 0.3s ease-out;
+.productImage {
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
 	height: 100%;
-	/* float: right; */
 	width: 40%;
-	display: inline-block;
+	cursor: pointer;
 }
 
-.productImage img {width: 100%;height: 100%;}
-
-.info {
-    background: rgba(27, 26, 26, 0.9);
-    font-family: 'Bree Serif', serif;
-    transition: all 0.3s ease-out;
-    transform: translateX(-100%);
-    position: absolute;
-    line-height: 1.8;
-    text-align: left;
-    font-size: 105%;
-    cursor: no-drop;
-    color: #FFF;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
+.productImage img {
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-out;
 }
 
-.info h2 {text-align: center}
-.product-image:hover .info{transform: translateX(0);}
-
-.info ul li{transition: 0.3s ease;}
-.info ul li:hover{transform: translateX(50px) scale(1.3);}
-
-.product-image:hover img {transition: all 0.3s ease-out;}
-.product-image:hover img {transform: scale(1.2, 1.2);}
+.productImage img:hover{
+	transform: scale(1.2);
+}
