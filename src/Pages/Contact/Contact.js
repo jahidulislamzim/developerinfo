@@ -9,7 +9,7 @@ const Contact = () => {
       </h1>
 
       <div className="contactWrapper">
-        <article className="contactBox">
+        {/* <article className="contactBox">
           <h3>
 
             <i class="fas fa-envelope"></i> shaikh@gmail.com
@@ -24,7 +24,7 @@ const Contact = () => {
           <h3>
             <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104.
           </h3>
-        </article>
+        </article> */}
       </div>
     </article>
   )
