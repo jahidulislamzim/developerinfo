@@ -111,7 +111,19 @@ const projects = [
 const contact = {
     phone:'+8801700000000',
     email:'jahidulislamzim845@gmail.com',
-    location:'rangpur, Kurigram, Bangladesh'
+    location:'rangpur, Kurigram, Bangladesh',
+    serviceId:'',
+    templateId:''
+}
+
+
+const seo = {
+    title:'Jahidul Islam',
+    favicon:'zim.png',
+    keywords:'jahidul islam zim',
+    url:'jahidulislamzim.netlify.com',
+    description:`seo section is awasome`,
+
 }
 
 
@@ -119,4 +131,4 @@ const contact = {
 
 
 
-export {header, myInfo, skills, projects, contact};
+export {header, myInfo, skills, projects, contact, seo};

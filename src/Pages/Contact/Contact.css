@@ -1,0 +1,137 @@
+.contactContainer{
+    margin-top: 12rem;
+}
+
+.contactWrapper{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    /* padding-top:10%; */
+}
+
+.contactBox{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--text);
+    font-weight: normal;
+}
+
+
+.contactBox .title{
+    text-transform: capitalize;
+    color: var(--text);
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.contactBox .title span{
+    color: var(--primary);
+}
+
+
+.contactBox .info h3{
+    padding: 1rem 0;
+}
+
+.contactBox .info h3 i{
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+.contactWrapper form {
+    flex: 1 1 45rem;
+    padding: 3rem;
+    margin-bottom: 4rem;
+}
+
+.contactWrapper form .box {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    color: var(--text);
+    border:solid 0.1rem var(--primary);
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.contactWrapper form .box:focus {
+    border:solid 0.1rem var(--primary);
+    outline: none;
+}
+
+.contactWrapper form .box::placeholder {
+    text-transform: capitalize;
+}
+
+.contactWrapper form .message {
+    height: 15rem;
+    resize: none;
+}
+/* 
+.contactWrapper .row .content .title {
+    text-transform: uppercase;
+    color: var(--text);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contactWrapper .row .content .title span {
+    color: var(--secondary);
+}
+
+.contactWrapper .row .content .info h3 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--text);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.contactWrapper.content .info .contact-icon {
+    padding-right: 1rem;
+    color: var(--secondary);
+} */
+
+.contactWrapper .contact-send-icon {
+    padding-left: 0.5rem;
+}
+
+
+.contactWrapper form .error-message {
+    font-size: 1.6rem;
+    background-color: var(--error);
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.contactWrapper form .error-message .error-icon {
+    color: var(--errorIcon);
+    margin-left: 1rem;
+}
+
+
+/* modal section  */
+
+.swal-overlay {
+    background-color: var(--popupBackground);
+}
+
+.swal-button {
+    background-color: var(--background);
+    border: none;
+    transition: 0.3s all;
+}
+
+.swal-button:hover {
+    background-color: var(--secondary) !important;
+}

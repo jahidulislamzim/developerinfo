@@ -27,6 +27,7 @@ html {
    --link:#fcfcfc;
   --shadow: #64646f33;
   --transition: all 400ms ease;
+  --error:red;
 }
 
 .container{
