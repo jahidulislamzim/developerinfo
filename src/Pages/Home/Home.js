@@ -19,11 +19,12 @@ const Home = () => {
       <div className="homeInfo">
         <h1 className="greeting">Hi There!</h1>
         <h1 className="name">
-          <span>I'm</span>
+          <span className="im">I'm</span>
           {name}
         </h1>
         <h1 className="title">
-          <span>I'm</span>
+          <span className="im">I'm</span>
+
           <Typewriter
             options={{
               strings:titles,
@@ -32,6 +33,7 @@ const Home = () => {
               delay: 75,
             }}
             />
+  
 
         </h1>
         <p className="bio">
@@ -42,31 +44,31 @@ const Home = () => {
           <div className="buttonBox">
             <a className="button" href={cv} >
               Download Resume
-              <i class="fa-light fa-arrow-down" />
+              <i className="fa-light fa-arrow-down" />
             </a>
           </div>
 
           <div className="socialIconWrapper">
 
             <a href="#" className="socialIconBox facebook">
-              <div class="icon">
-                <i class="fab fa-facebook-f" />
+              <div className="icon">
+                <i className="fab fa-facebook-f" />
               </div>
               <span>Facebook</span>
             </a>
 
 
             <a href="#" className="socialIconBox github">
-              <div class="icon">
-                <i class="fa-light fa-arrow-down" />
+              <div className="icon">
+                <i className="fa-light fa-arrow-down" />
               </div>
               <span>Facebook</span>
             </a>
 
             
             <a href="#" className="socialIconBox github">
-              <div class="icon">
-                <i class="fa-light fa-arrow-down" />
+              <div className="icon">
+                <i className="fa-light fa-arrow-down" />
               </div>
               <span>Facebook</span>
             </a>

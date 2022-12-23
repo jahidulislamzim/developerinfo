@@ -1,13 +1,11 @@
-
-
-.skillWrapper{
+.skillWrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 
-.skill{
+.skill {
   position: relative;
   display: inline-flex;
   flex-direction: column;
@@ -16,7 +14,7 @@
   width: 12rem;
   height: 12rem;
   background: var(--primary);
-  padding:1rem;
+  padding: 1rem;
   margin: 2rem;
   cursor: pointer;
   border-radius: 1rem;
@@ -35,43 +33,47 @@
   margin-top: 1rem;
 }
 
-.skill h5{
+.skill h5 {
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
   margin-top: 2rem;
 }
 
-.skill .junior{
-  color:#feb800;
-}
-.skill .midLevel{
-  color:#ff2d55;
-}
-.skill .expart{
-  color:#2db55d;
+.skill .junior {
+  color: #feb800;
 }
 
-.tooltip{
+.skill .midLevel {
+  color: #ff2d55;
+}
+
+.skill .expart {
+  color: #2db55d;
+}
+
+.tooltip {
   position: absolute;
-  top:0rem;
-  width:23rem;
-  background:var(--primary);
+  top: 0rem;
+  width: 23rem;
+  background: var(--primary);
   color: #fff;
   padding: 1rem 1rem;
-  font-size:1.3rem;
-  border-radius:1rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
   opacity: 0;
   pointer-events: none;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.skill:hover .tooltip{
+
+.skill:hover .tooltip {
   top: -8.5rem;
   opacity: 1;
   pointer-events: auto;
   z-index: 1;
 }
-.tooltip:before{
+
+.tooltip:before {
   position: absolute;
   content: "";
   height: 15px;
@@ -81,4 +83,33 @@
   bottom: -6px;
   transform: translateX(-50%) rotate(45deg);
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+@media only screen and (max-width:575.98px) {
+  .skillsContainer {
+    margin-top: 20%;
+  }
+
+  .skillWrapper {
+    gap: 4%;
+  }
+
+  .skill {
+    margin: 1rem;
+  }
+
+}
+
+@media only screen and (max-width:320.98px) {
+  .skillWrapper {
+    gap: 4%;
+  }
+
+  .skill {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+  }
+
 }

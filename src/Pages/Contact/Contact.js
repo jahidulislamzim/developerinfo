@@ -34,7 +34,7 @@ const Contact = () => {
         <p className="error-message">
           {" "}
           Input Correct Email Formate{" "}
-          <i class="far fa-exclamation-triangle error-icon"></i>
+          <i class="fa-light fa-triangle-exclamation"></i>
         </p>
       );
     }
@@ -56,28 +56,28 @@ const Contact = () => {
       setErrorMessage(
         <p className="error-message">
           You Can't Sent Message With An Empty Input{" "}
-          <i class="far fa-exclamation-triangle error-icon"></i>
+          <i class="fa-light fa-triangle-exclamation"></i>
         </p>
       );
     } else if (name === "") {
       setErrorMessage(
         <p className="error-message">
           You Can't Sent Message With An Empty Input{" "}
-          <i class="far fa-exclamation-triangle error-icon"></i>
+          <i class="fa-light fa-triangle-exclamation"></i>
         </p>
       );
     } else if (project === "") {
       setErrorMessage(
         <p className="error-message">
           You Can't Sent Message With An Empty Input{" "}
-          <i class="fal fa-exclamation-triangle error-icon"></i>
+          <i class="fa-light fa-triangle-exclamation"></i>
         </p>
       );
     } else if (message === ``) {
       setErrorMessage(
         <p className="error-message">
           You Can't Sent Message With An Empty Input{" "}
-          <i class="fal fa-exclamation-triangle error-icon"></i>
+          <i class="fa-light fa-triangle-exclamation"></i>
         </p>
       );
     } else {

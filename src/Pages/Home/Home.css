@@ -1,133 +1,195 @@
-.homeContainer{
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
-    padding-top:10%;
+.homeContainer {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  padding-top: 10%;
 }
 
-.imageBackBox{
-    width:75%;
-    margin:auto;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--primary), transparent);
+.imageBackBox {
+  width: 75%;
+  margin: auto;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--primary), transparent);
 }
 
 .imageBox {
-    height:100%;
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition:  all 400ms ease;
+  height: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: all 400ms ease;
 }
-.imageBox img{
-    width:100%;
-    height: 100%;
-    cursor: pointer;
-    object-fit: cover;
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
 }
 
 .imageBox:hover {
-    transform: rotate(0);
+  transform: rotate(0);
 }
 
-.homeInfo .greeting{
-    font-size:2.5rem ;
+.homeInfo .greeting {
+  font-size: 2.5rem;
 }
 
-.homeInfo .name{
-    font-size: 5rem;
-}
-.homeInfo .name span,
-.homeInfo .title span{
-    margin-right:1rem;
+.homeInfo .name {
+  font-size: 5rem;
+  color:var(--primary)
 }
 
-.homeInfo .title{
-    font-size: 3rem;
-    display: flex;
+.homeInfo .name .im,
+.homeInfo .title .im {
+  margin-right: 1rem;
+  color:var(--text)
 }
 
-.homeInfo .bio{
-    font-size:1.7rem;
-    margin:1rem 0rem;
+.homeInfo .title {
+  font-size: 3rem;
+  display: flex;
+  color:var(--primary)
+}
+
+.homeInfo .bio {
+  font-size: 1.7rem;
+  margin: 1rem 0rem;
 }
 
 
-.socialIconBox{
-    /* position:absolute; */
-    text-decoration: none;
+.socialIconBox {
+  /* position:absolute; */
+  text-decoration: none;
 }
 
-.socialIconBox{
-    display: inline-block;
-    height:5rem;
-    width: 5rem;
-    align-items: center;
-    margin: 0 5px;
-    overflow: hidden;
-    background: #fff;
-    border-radius:3rem;
-    cursor: pointer;
-    box-shadow: 0 0.1rem 1rem 0.1rem var(--shadow);
-    transition: all 0.3s ease-out;
-  }
-  .socialIconBox:hover{
-    width:16.5rem;
-  }
-  .socialIconBox .icon{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    height:5rem;
-    width:5rem;
-    border-radius: 5rem;
-    box-sizing: border-box;
-    transition: all 0.3s ease-out;
+.socialIconBox {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  align-items: center;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 3rem;
+  cursor: pointer;
+  box-shadow: 0 0.1rem 1rem 0.1rem var(--shadow);
+  transition: all 0.3s ease-out;
+}
+
+.socialIconBox:hover {
+  width: 16.5rem;
+}
+
+.socialIconBox .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.socialIconBox .icon i {
+  font-size: 2.2rem;
+}
+
+.socialIconBox.facebook:hover .icon {
+  background: #4267B2;
+}
+
+.socialIconBox.github:hover .icon {
+  background: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+  background: #E1306C;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+  background: #333;
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+  background: #ff0000;
+}
+
+.socialIconBox:hover .icon {
+  color: #fff;
+}
+
+.socialIconBox span {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 1rem;
+  transition: all 0.3s ease-out;
+}
+
+.socialIconBox:nth-child(1) span {
+  color: #4267B2;
+}
+
+.wrapper .button:nth-child(2) span {
+  color: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3) span {
+  color: #E1306C;
+}
+
+.wrapper .button:nth-child(4) span {
+  color: #333;
+}
+
+.wrapper .button:nth-child(5) span {
+  color: #ff0000;
+}
+
+
+
+
+
+@media only screen and (max-width:991.98px) {
+  .homeContainer {
+    grid-template-columns: 1fr;
+    gap: 10%;
+    padding-top: 15%;
   }
 
-  .socialIconBox .icon i{
-    font-size: 2.2rem;
+  .imageBackBox {
+    width: 50%;
   }
-  .socialIconBox.facebook:hover .icon{
-    background: #4267B2;
-  }
-  .socialIconBox.github:hover .icon{
-    background: #1DA1F2;
-  }
-  .wrapper .button:nth-child(3):hover .icon{
-    background: #E1306C;
-  }
-  .wrapper .button:nth-child(4):hover .icon{
-    background: #333;
-  }
-  .wrapper .button:nth-child(5):hover .icon{
-    background: #ff0000;
+}
+
+
+
+@media only screen and (max-width:575.98px) {
+  .homeContainer {
+    grid-template-columns: 1fr;
+    gap: 7%;
+    padding-top: 25%;
   }
 
-  .socialIconBox:hover .icon{
-    color: #fff;
+  .imageBackBox {
+    width: 60%;
   }
-  .socialIconBox span{
-    text-decoration: none;
-    font-size:1.8rem;
-    font-weight: 500;
-    text-align: center;
-    margin-left:1rem;
-    transition: all 0.3s ease-out;
+  .homeInfo .greeting {
+    font-size: 1.8rem;
   }
-  .socialIconBox:nth-child(1) span{
-    color: #4267B2;
+  .homeInfo .name {
+    font-size:2.8rem;
   }
-  .wrapper .button:nth-child(2) span{
-    color: #1DA1F2;
+  .homeInfo .title {
+    font-size: 1.8rem;
+    margin-top:0.7rem;
   }
-  .wrapper .button:nth-child(3) span{
-    color: #E1306C;
+  .homeInfo .bio {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
   }
-  .wrapper .button:nth-child(4) span{
-    color: #333;
-  }
-  .wrapper .button:nth-child(5) span{
-    color: #ff0000;
-  }
+}

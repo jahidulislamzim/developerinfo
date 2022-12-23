@@ -20,25 +20,25 @@ const About = () => {
             <div className="aboutCards">
 
             <article className="aboutCard">
-            <i class="fa-light fa-award aboutIcon"/>
+            <i className="fa-light fa-award aboutIcon"/>
               <h5>Experience</h5>
               <small>1 year</small>
             </article>
 
             <article className="aboutCard">
-            <i class="fa-thin fa-file-chart-pie aboutIcon"/>
+            <i className="fa-thin fa-file-chart-pie aboutIcon"/>
               <h5>Projects</h5>
               <small>20+ Completed Projects</small>
             </article>
 
             <article className="aboutCard">
-            <i class="fa-thin fa-file-chart-pie aboutIcon"/>
+            <i className="fa-thin fa-file-chart-pie aboutIcon"/>
               <h5>Projects</h5>
               <small>20+ Completed Projects</small>
             </article>
 
             <article className="aboutCard">
-            <i class="fa-thin fa-file-chart-pie aboutIcon"/>
+            <i className="fa-thin fa-file-chart-pie aboutIcon"/>
               <h5>Projects</h5>
               <small>20+ Completed Projects</small>
             </article>
