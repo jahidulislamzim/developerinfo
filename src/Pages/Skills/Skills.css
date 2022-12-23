@@ -56,7 +56,7 @@
   top: 0rem;
   width: 23rem;
   background: var(--primary);
-  color: #fff;
+  color: var(--foreground);
   padding: 1rem 1rem;
   font-size: 1.3rem;
   border-radius: 1rem;

@@ -61,7 +61,6 @@
 
 
 .socialIconBox {
-  /* position:absolute; */
   text-decoration: none;
 }
 
@@ -72,7 +71,7 @@
   align-items: center;
   margin: 0 5px;
   overflow: hidden;
-  background: #fff;
+  background: var(--primary);
   border-radius: 3rem;
   cursor: pointer;
   box-shadow: 0 0.1rem 1rem 0.1rem var(--shadow);
@@ -132,25 +131,16 @@
 }
 
 .socialIconBox:nth-child(1) span {
-  color: #4267B2;
+  color:var(--foreground)
 }
 
-.wrapper .button:nth-child(2) span {
-  color: #1DA1F2;
+.socialIconBox:nth-child(2) span {
+  color:var(--foreground)
 }
 
-.wrapper .button:nth-child(3) span {
-  color: #E1306C;
+.socialIconBox:nth-child(3) span {
+  color:var(--foreground)
 }
-
-.wrapper .button:nth-child(4) span {
-  color: #333;
-}
-
-.wrapper .button:nth-child(5) span {
-  color: #ff0000;
-}
-
 
 
 
@@ -193,4 +183,27 @@
     font-size: 1.4rem;
     line-height: 2.2rem;
   }
+  
+.socialIconBox {
+  height: 4rem;
+  width: 4rem;
+}
+
+.socialIconBox:hover {
+  width: 15rem;
+}
+
+.socialIconBox .icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.socialIconBox .icon i {
+  font-size: 1.8rem;
+}
+.socialIconBox span {
+  font-size: 1.8rem;
+}
+
+
 }
