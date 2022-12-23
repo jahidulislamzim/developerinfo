@@ -42,14 +42,14 @@
     text-transform: capitalize;
     padding:0.8rem 1rem;
     font-size:2rem;
-    color:var(--link)
+    color:#fff;
 }
 
 .navLinkBox .links::after {
     content: " ";
     width: 0;
     height: 3px;
-    background-color:var(--link);
+    background-color:#fff;
     display: block;
     border-radius: 50px;
     margin: auto;
@@ -195,10 +195,10 @@
 @media only screen and (max-width:575.98px){
 
     .logoBox a{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .navbar{
-        padding:1.5rem 0rem;
+        padding:1rem 0rem;
         
     }
     .res-nav-bar .nav-body .nav-link a{

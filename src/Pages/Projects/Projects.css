@@ -11,7 +11,7 @@
 	overflow: hidden;
 	margin: 5em auto;
 	height: 25rem;
-	width: 55rem;
+	width: 50rem;
 
 
 }
@@ -35,15 +35,16 @@
 	font-size: 3rem;
 	text-align: center;
 	color: #344055;
-	margin: 1rem 0rem;
+	margin: 1rem 0rem 2rem;
 
 }
 
 
 .projectCard .projectDetails p {
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	color: #7d7d7d;
+	margin-bottom: 1rem;
 }
 
 .projectButtonBox {

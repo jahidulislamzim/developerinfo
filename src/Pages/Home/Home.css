@@ -95,6 +95,7 @@
 
 .socialIconBox .icon i {
   font-size: 2.2rem;
+  color: var(--foreground);
 }
 
 .socialIconBox.facebook:hover .icon {
@@ -123,7 +124,7 @@
 
 .socialIconBox span {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   text-align: center;
   margin-left: 1rem;
@@ -181,7 +182,7 @@
   }
   .homeInfo .bio {
     font-size: 1.4rem;
-    line-height: 2.2rem;
+    line-height: 2.1rem;
   }
   
 .socialIconBox {

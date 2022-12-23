@@ -41,17 +41,7 @@ const Skills = () => {
                 }
             </div>
             <h3>{element.title}</h3>
-            <h5
-              className={
-                element.level.toLowerCase() === "expart"
-                  ? "expart"
-                  : element.level.toLowerCase() === "mid level"
-                  ? "midLevel"
-                  : element.level.toLowerCase() === "junior"
-                  ? "junior"
-                  : ""
-              }
-            >
+            <h5>
               {element.level}
             </h5>
           </div>
