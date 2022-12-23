@@ -9,6 +9,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:var(--background);
+  color:var(--foreground)
 }
 
 
@@ -19,19 +21,49 @@ html {
 }
 
 :root{
-  --background: #fcfcfc;
+  /* --background: #fcfcfc; */
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
    --primary: #19bf70;
    --primary-alt:#71e8b6;
    --link:#fcfcfc;
-  --shadow: #64646f33;
+  /* --shadow: #64646f33; */
   --shadow-alt:#19bf70;
   --transition: all 400ms ease;
   --error:red;
-  --text:#252525;
+  /* --text:#252525; */
 }
+
+
+.light {
+  --background: #fcfcfc;
+  --foreground: #444;
+  --clr-bg-alt: #fff;
+  --clr-fg: #555;
+  --clr-fg-alt: #444;
+  --clr-primary: #2978b5;
+  --shadow: #64646f33;
+}
+
+.dark {
+  --background: #23283e;
+  --foreground: #fff;
+  --clr-bg-alt: #2a2f4c;
+  --clr-fg: #bdbddd;
+  --clr-fg-alt: #cdcdff;
+  --clr-primary: #90a0d9;
+  --shadow: rgba(211, 210, 210, 0.616);
+}
+
+
+
+
+
+
+
+
+
 
 .container{
   width:86%;

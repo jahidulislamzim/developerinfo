@@ -108,23 +108,23 @@ const Contact = () => {
 
 
           <div >
-            <h3 class="title">
+            <h3 className="title">
               <span>contact</span> info
             </h3>
 
             <div className="info">
               <h3>
 
-                <i class="fal fa-envelope-open-text contact-icon"></i>
+                <i className="fal fa-envelope-open-text contact-icon"></i>
                 jahidulislamzim845@gmail.com
               </h3>
               <h3>
 
-                <i class="fal fa-mobile contact-icon"></i> +8801780115943
+                <i className="fal fa-mobile contact-icon"></i> +8801780115943
               </h3>
               <h3>
 
-                <i class="fal fa-map-marker-smile contact-icon"></i> Kurigram,
+                <i className="fal fa-map-marker-smile contact-icon"></i> Kurigram,
                 Rangpur, Bangladesh.
               </h3>
             </div>
@@ -137,26 +137,26 @@ const Contact = () => {
               onBlur={nameHandaller}
               type="text"
               placeholder="name"
-              class="box"
+              className="box"
             />
             <input
               onBlur={emailHandaller}
               type="email"
               placeholder="email"
-              class="box"
+              className="box"
             />
             <p>{emailValidation}</p>
             <input
               onBlur={projectHandaller}
               type="text"
               placeholder="project"
-              class="box"
+              className="box"
             />
             <textarea
               onBlur={userMessageHandaller}
               name=""
               id=""
-              class="box message"
+              className="box message"
               placeholder="message"
             ></textarea>
             <p>{errorMessage}</p>
@@ -166,7 +166,7 @@ const Contact = () => {
               className="button"
             >
               {" "}
-              send <i class="fal fa-paper-plane contact-send-icon"></i>{" "}
+              send <i className="fal fa-paper-plane contact-send-icon"></i>{" "}
             </button>
           </form>
         </div>

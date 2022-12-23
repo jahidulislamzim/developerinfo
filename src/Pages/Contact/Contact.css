@@ -1,15 +1,15 @@
-.contactContainer{
+.contactContainer {
     margin-top: 12rem;
 }
 
-.contactWrapper{
+.contactWrapper {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
     /* padding-top:10%; */
 }
 
-.contactBox{
+.contactBox {
     display: flex;
     /* align-items: center; */
     flex-direction: column;
@@ -20,23 +20,23 @@
 }
 
 
-.contactBox .title{
+.contactBox .title {
     text-transform: capitalize;
     color: var(--text);
     font-size: 4rem;
     padding-bottom: 2rem;
 }
 
-.contactBox .title span{
+.contactBox .title span {
     color: var(--primary);
 }
 
 
-.contactBox .info h3{
+.contactBox .info h3 {
     padding: 1rem 0;
 }
 
-.contactBox .info h3 i{
+.contactBox .info h3 i {
     margin-right: 1rem;
 }
 
@@ -55,7 +55,7 @@
     padding: 1.5rem;
     margin: 1rem 0;
     color: var(--text);
-    border:solid 0.1rem var(--primary);
+    border: solid 0.1rem var(--primary);
     text-transform: none;
     font-size: 1.7rem;
     width: 90%;
@@ -63,7 +63,7 @@
 }
 
 .contactWrapper form .box:focus {
-    border:solid 0.1rem var(--primary);
+    border: solid 0.1rem var(--primary);
     outline: none;
 }
 
@@ -75,6 +75,7 @@
     height: 15rem;
     resize: none;
 }
+
 /* 
 .contactWrapper .row .content .title {
     text-transform: uppercase;
@@ -134,4 +135,35 @@
 
 .swal-button:hover {
     background-color: var(--secondary) !important;
+}
+
+
+
+@media only screen and (max-width:575.98px) {
+    .contactWrapper {
+        grid-template-columns: 1fr;
+        gap: 0%;
+    }
+
+    .contactBox {
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    .contactBox .title {
+        text-align: center;
+        font-size: 2.8rem;
+        padding-bottom: 1.4rem;
+    }
+
+    .contactWrapper form {
+        flex: 1 1 100%;
+        padding: 3rem 0rem 0rem 0rem;
+        margin-bottom: 4rem;
+    }
+
+    .contactWrapper form .box {
+        padding: 1.2rem;
+        width: 100%;
+    }
 }
