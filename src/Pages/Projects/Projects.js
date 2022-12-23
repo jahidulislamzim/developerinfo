@@ -4,7 +4,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <article className="container">
+    <article className="container projectContainer">
       <h1 className="heading">
         <span>My</span>Projects
       </h1>
@@ -15,12 +15,12 @@ const Projects = () => {
             <div className="projectDetails">
               <h1>{element.title}</h1>
 
-              <p class="information">{element.details}</p>
+              <p className="information">{element.details}</p>
 
               <div className="projectButtonBox">
                 <a
                   href={element.source ? element.source : "#"}
-                  className="button"
+                  className="button projectButton"
                   target={element.source ? "_blank" : "_self"}
                   rel="noreferrer"
                 >
@@ -28,7 +28,7 @@ const Projects = () => {
                 </a>
                 <a
                   href={element.live ? element.live : "#"}
-                  className="button"
+                  className="button projectButton"
                   target={element.live ? "_blank" : "_self"}
                   rel="noreferrer"
                 >

@@ -42,10 +42,6 @@
 }
 
 
-
-
-
-
 .projectCard .projectDetails p {
 	text-align: center;
 	font-size: 1.6rem;
@@ -74,6 +70,40 @@
 	transition: all 0.3s ease-out;
 }
 
-.productImage img:hover{
+.productImage img:hover {
 	transform: scale(1.2);
+}
+
+
+@media only screen and (max-width:575.98px) {
+	.projectContainer {
+		margin-top: 20%;
+	}
+
+	.projectCard {
+		box-shadow: 0 5px 15px 1px grey;
+		background: rgba(255, 255, 255, 0.90);
+		overflow: hidden;
+		margin: 2.5rem auto;
+		height: 17rem;
+		width: 100%;
+	}
+
+	.projectCard .projectDetails h1 {
+		font-size: 1.5rem;
+		margin: .8rem 0rem;
+	}
+
+
+	.projectCard .projectDetails p {
+		font-size: 1rem;
+	}
+
+	.projectButton{
+		font-size:1.2rem;
+		padding:.6rem 1.5rem;
+		margin:.8rem 0rem;
+	}
+
+
 }
