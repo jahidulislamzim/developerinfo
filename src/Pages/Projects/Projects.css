@@ -88,6 +88,10 @@
 		height: 17rem;
 		width: 100%;
 	}
+	.projectDetails {
+		padding: 0.6rem;
+	}
+	
 
 	.projectCard .projectDetails h1 {
 		font-size: 1.5rem;
