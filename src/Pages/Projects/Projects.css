@@ -4,7 +4,6 @@
 }
 
 .projectCard {
-	box-shadow: 0 0px 15px 1px var(--shadow);
 	background: #ffffffe6;
 	text-align: center;
 	border-radius: 5px;
@@ -12,8 +11,7 @@
 	margin: 5em auto;
 	height: 25rem;
 	width: 50rem;
-
-
+	box-shadow: 0 0px 15px 1px var(--shadow);
 }
 
 
