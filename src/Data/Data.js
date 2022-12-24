@@ -74,35 +74,42 @@ const projects = [
         details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
         source:'https://github.com/lukinoo/math-resource',
         live:'https://github.com/lukinoo/math-resource',
-        image:'zim.png'
+        image:'DemoProject01.webp'
     },
     {
         title:'project-01',
         details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
         source:'https://github.com/lukinoo/math-resource',
         live:'https://github.com/lukinoo/math-resource',
-        image:'zim.png'
+        image:'DemoProject02.webp'
+    },
+    {
+        title:'project-01',
+        details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas will enhance your Christmas...`, 
+        source:'https://github.com/lukinoo/math-resource',
+        live:'https://github.com/lukinoo/math-resource',
+        image:'DemoProject03.webp'
     },
     {
         title:'project-01',
         details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
         source:'https://github.com/lukinoo/math-resource',
         live:'https://github.com/lukinoo/math-resource',
-        image:'zim.png'
+        image:'DemoProject04.webp'
     },
     {
         title:'project-01',
         details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
         source:'https://github.com/lukinoo/math-resource',
         live:'https://github.com/lukinoo/math-resource',
-        image:'zim.png'
+        image:'DemoProject05.webp'
     },
     {
         title:'project-01',
         details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
         source:'https://github.com/lukinoo/math-resource',
         live:'https://github.com/lukinoo/math-resource',
-        image:'zim.png'
+        image:'DemoProject06.webp'
     },
     
 ]

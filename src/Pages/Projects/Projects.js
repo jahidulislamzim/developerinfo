@@ -10,12 +10,16 @@ const Projects = () => {
       </h1>
 
       <div className="projectWrapper">
-        {projects.slice(0, 5).map((element, index) => (
+        {projects.slice(0, 6).map((element, index) => (
           <article className="projectCard" key={index}>
             <div className="projectDetails">
               <h1>{element.title}</h1>
 
-              <p className="information">{element.details}</p>
+              <p className="information">
+                {element.details.length > 180
+                  ? element.details.slice(0, 181)+'...'
+                  : element.details}
+              </p>
 
               <div className="projectButtonBox">
                 <a
@@ -50,4 +54,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
