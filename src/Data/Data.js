@@ -126,7 +126,7 @@ const contact = {
 
 const seo = {
     title:'Jahidul Islam',
-    favicon:'zim.png',
+    favicon:'zim.pn',
     keywords:'jahidul islam zim',
     url:'jahidulislamzim.netlify.com',
     description:`seo section is awasome`,

@@ -59,6 +59,12 @@
   color:var(--foreground)
 }
 
+.buttonBox small{
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color:#E1306C;
+}
 
 .socialIconBox {
   text-decoration: none;
