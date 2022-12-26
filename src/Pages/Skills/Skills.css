@@ -19,17 +19,18 @@
   cursor: pointer;
   border-radius: 1rem;
   transition: all .5s;
+  color:var(--text)
 }
 
 .skill:hover {
   border: 0.1rem solid var(--primary);
   background-color: transparent;
   transform: scale(1.2);
+  color:var(--text-alt)
 }
 
 .skill h3 {
   font-size: 2rem;
-  color: var(--text);
   margin-top: 1rem;
 }
 
@@ -39,24 +40,13 @@
   margin-top: 2rem;
 }
 
-.skill .junior {
-  color: #feb800;
-}
-
-.skill .midLevel {
-  color: #ff2d55;
-}
-
-.skill .expart {
-  color: #2db55d;
-}
 
 .tooltip {
   position: absolute;
   top: 0rem;
   width: 23rem;
   background: var(--primary);
-  color: var(--foreground);
+  color: var(--text);
   padding: 1rem 1rem;
   font-size: 1.3rem;
   border-radius: 1rem;

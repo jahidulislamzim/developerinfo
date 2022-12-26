@@ -14,7 +14,8 @@
     border-radius: 3rem;
     cursor: pointer;
     box-shadow: 0 0.1rem 1rem 0.1rem var(--shadow);
-    transition: all 0.3s ease-out;
+    transition: var(--transition);
+    color:var(--text)
   }
   
   .socialIconBox:hover {
@@ -29,13 +30,12 @@
     width: 4.5rem;
     border-radius: 5rem;
     box-sizing: border-box;
-    transition: all 0.3s ease-out;
+    transition: var(--transition);
   }
   
   .socialIconBox .icon i {
     font-size: 2rem;
-    color: var(--foreground);
-    transition: all 0.3s ease-out;
+    transition: var(--transition);
   }
   
   .socialIconBox.facebook:hover .icon {
@@ -64,7 +64,7 @@
   
   
   .socialIconBox:hover .icon i{
-    color: #fff !important;
+    color: #fff;
   }
   
   .socialIconBox span {
@@ -75,17 +75,5 @@
     margin-left: 1rem;
     transition: all 0.3s ease-out;
   }
-  
-  .socialIconBox:nth-child(1) span {
-    color:var(--foreground)
-  }
-  
-  .socialIconBox:nth-child(2) span {
-    color:var(--foreground)
-  }
-  
-  .socialIconBox:nth-child(3) span {
-    color:var(--foreground)
-  }
-  
+ 
   

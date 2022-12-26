@@ -74,14 +74,14 @@ const Header = () => {
         </div>
       </nav>
 
-      <div className="res-nav-bar">
-        <div className="nav-body">
-          <nav className={click ? "nav-link" : "nav-link close"}>
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#h">skills</a>
-            <a href="#h">projects</a>
-            <a href="#h">contact</a>
+      <div className="resNavBar">
+        <div className="navBody">
+          <nav className={click ? "navLinks" : "navLinks close"}>
+            <a href="#home" className="links">home</a>
+            <a href="#about" className="links">about</a>
+            <a href="#h" className="links">skills</a>
+            <a href="#h" className="links">projects</a>
+            <a href="#h" className="links">contact</a>
           </nav>
         </div>
       </div>

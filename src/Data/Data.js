@@ -24,7 +24,7 @@ const myInfo = {
     },
     // add your image name with image extention.
     // example zim.jpeg, zim.png, zim.svg etc.
-    image:'zim.jpg',
+    image:'zim.webp',
     //add your Resume name with file extention.
     resume:'zim.pdf',
     // add your bio here within 590 characters

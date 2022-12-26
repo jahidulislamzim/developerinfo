@@ -30,7 +30,7 @@
 .logoBox a{
     text-decoration: none;
     font-size: 3rem;
-    color:#fff;
+    color:var(--text);
     font-weight: 600;
     letter-spacing:0.1rem;
     text-transform: uppercase;
@@ -42,14 +42,14 @@
     text-transform: capitalize;
     padding:0.8rem 1rem;
     font-size:2rem;
-    color:#fff;
+    color:var(--text);
 }
 
 .navLinkBox .links::after {
     content: " ";
     width: 0;
     height: 3px;
-    background-color:#fff;
+    background-color:var(--text);
     display: block;
     border-radius: 50px;
     margin: auto;
@@ -68,7 +68,7 @@
 .darkLight{
     font-size: 2rem;
     margin-left: 2rem;
-    color: #fff;
+    color: var(--text);
     z-index: 999999999999;
 }
 
@@ -78,7 +78,7 @@
 
 /* responsive nav */
 
-.res-nav-bar{
+.resNavBar{
     display: none;
 }
 
@@ -96,7 +96,7 @@
 .menu-btn__burger {
     width: 3rem;
     height: 0.3rem;
-    background:white;
+    background:var(--text);
     border-radius: 50px;
     transition: all .5s ease-in-out;
 }
@@ -107,7 +107,7 @@
     position: absolute;
     width: 4rem;
     height: 0.3rem;
-    background:white;
+    background:var(--text);
     border-radius: 50px;
     transition: all .5s ease-in-out;
 }
@@ -147,11 +147,11 @@
    .menu-btn {
         display: block;
     }
-    .res-nav-bar {
+    .resNavBar{
         display: block;
     }
 
-    .res-nav-bar .nav-body .nav-link {
+    .resNavBar .navBody .navLinks{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -169,7 +169,7 @@
         
     }
 
-    .res-nav-bar .nav-body .nav-link.close {
+    .resNavBar .navBody .navLinks.close {
         top: 0%;
         left: 0%;
         padding:2rem 0rem;
@@ -180,15 +180,29 @@
 
     }
 
-    .res-nav-bar .nav-body .nav-link a{
+    .resNavBar .navBody .navLinks .links{
         display: flex;
         flex-direction: column;
         padding:1rem;
         font-size: 3rem;
         text-decoration:none;
-        color:#fff;
+        color:var(--text);
         cursor: pointer;
         text-transform: capitalize;
+    }
+    .resNavBar .navBody .navLinks .links::after {
+        content: " ";
+        width: 0;
+        height: 3px;
+        background-color:var(--text);
+        display: block;
+        border-radius: 50px;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    .resNavBar .navBody .navLinks .links:hover::after {
+        width: 100%;
     }
 }
 

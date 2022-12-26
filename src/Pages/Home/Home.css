@@ -34,6 +34,7 @@
 
 .homeInfo .greeting {
   font-size: 2.5rem;
+  color:var(--foreground);
 }
 
 .homeInfo .name {
@@ -63,7 +64,7 @@
   display: block;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color:#E1306C;
+  color:var(--error);
 }
 
 
