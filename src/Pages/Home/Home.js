@@ -1,10 +1,11 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import SocialLinks from "../../Component/SocialLinks/SocialLinks";
 import { myInfo } from "../../Data/Data";
 import "./Home.css";
 
 const Home = () => {
-  const { name, image, titles, bio, resume } = myInfo;
+  const { name, image, titles, bio, resume} = myInfo;
 
   function cvData() {
     try {
@@ -26,6 +27,8 @@ const Home = () => {
       return 0;
     }
   }
+
+  // console.log( socialLinks)
 
 
   return (
@@ -57,14 +60,14 @@ const Home = () => {
 
           <Typewriter
             options={{
-              strings: titles,
+              strings: titles ? titles : 'Add Your Title In data.js File',
               autoStart: true,
               loop: true,
               delay: 75,
             }}
           />
         </h1>
-        <p className="bio">{bio}</p>
+        <p className="bio">{bio.length <= 590 ? bio  : bio.slice(0, 591)+'...'}</p>
 
         <div>
           <div className="buttonBox">
@@ -82,27 +85,10 @@ const Home = () => {
             
           </div>
 
+          
+
           <div className="socialIconWrapper">
-            <a href="#" className="socialIconBox facebook">
-              <div className="icon">
-                <i className="fab fa-facebook-f" />
-              </div>
-              <span>Facebook</span>
-            </a>
-
-            <a href="#" className="socialIconBox github">
-              <div className="icon">
-                <i className="fa-light fa-arrow-down" />
-              </div>
-              <span>Facebook</span>
-            </a>
-
-            <a href="#" className="socialIconBox github">
-              <div className="icon">
-                <i className="fa-light fa-arrow-down" />
-              </div>
-              <span>Facebook</span>
-            </a>
+          <SocialLinks count={3}/>
           </div>
         </div>
       </div>

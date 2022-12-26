@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import swal from "sweetalert";
+import SocialLinks from "../../Component/SocialLinks/SocialLinks";
 import "./Contact.css";
 
 const Contact = () => {
@@ -128,6 +129,10 @@ const Contact = () => {
                 Rangpur, Bangladesh.
               </h3>
             </div>
+          </div>
+
+          <div>
+            <SocialLinks/>
           </div>
         </article>
 

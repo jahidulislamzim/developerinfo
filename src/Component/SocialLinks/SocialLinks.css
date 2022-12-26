@@ -1,0 +1,91 @@
+
+.socialIconBox {
+    text-decoration: none;
+  }
+  
+  .socialIconBox {
+    display: inline-block;
+    height: 4.5rem;
+    width: 4.5rem;
+    align-items: center;
+    margin: 0 5px;
+    overflow: hidden;
+    background: var(--primary);
+    border-radius: 3rem;
+    cursor: pointer;
+    box-shadow: 0 0.1rem 1rem 0.1rem var(--shadow);
+    transition: all 0.3s ease-out;
+  }
+  
+  .socialIconBox:hover {
+    width: 14rem;
+  }
+  
+  .socialIconBox .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 5rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+  }
+  
+  .socialIconBox .icon i {
+    font-size: 2rem;
+    color: var(--foreground);
+    transition: all 0.3s ease-out;
+  }
+  
+  .socialIconBox.facebook:hover .icon {
+    background: #3b5998;
+  }
+  
+  .socialIconBox.gitHub:hover .icon {
+    background: #171515;
+  }
+  .socialIconBox.linkedIn:hover .icon {
+    background: #0072b1;
+  }
+  .socialIconBox.twitter:hover .icon {
+    background: #00acee;
+  }
+  .socialIconBox.behance:hover .icon {
+    background:  #053eff;
+  }
+  .socialIconBox.instagram:hover .icon {
+    background:  #fe4164;
+  }
+  .socialIconBox.dribbble:hover .icon {
+    background:   #ea4c89;
+  }
+  
+  
+  
+  .socialIconBox:hover .icon i{
+    color: #fff !important;
+  }
+  
+  .socialIconBox span {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 1rem;
+    transition: all 0.3s ease-out;
+  }
+  
+  .socialIconBox:nth-child(1) span {
+    color:var(--foreground)
+  }
+  
+  .socialIconBox:nth-child(2) span {
+    color:var(--foreground)
+  }
+  
+  .socialIconBox:nth-child(3) span {
+    color:var(--foreground)
+  }
+  
+  
