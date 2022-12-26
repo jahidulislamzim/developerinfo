@@ -10,13 +10,6 @@ const Skills = () => {
         expart:'I am at an expert level but I think it is not enough for me I want to learn more and go to a better level.',
     }
 
-  
-
-
-
-
-
-
 
 
 
