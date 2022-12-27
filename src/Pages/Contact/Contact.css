@@ -98,18 +98,17 @@
 
 /* modal section  */
 
-.swal-overlay {
-    background-color: var(--popupBackground);
-}
+
 
 .swal-button {
-    background-color: var(--background);
-    border: none;
+    background-color: var(--primary);
+    border: solid 1px var(--primary) !important;
     transition: 0.3s all;
 }
 
 .swal-button:hover {
-    background-color: var(--secondary) !important;
+    background-color: transparent!important;
+    color:var(--primary)
 }
 
 

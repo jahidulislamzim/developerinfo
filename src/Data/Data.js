@@ -9,14 +9,14 @@ const myInfo = {
     titles:[
         // add your title. you can add more 
         'MERN Stack Developer',
-        'Software Enginner'
+        'FrontEnd Engineer'
     ],
 
     SocialLinks:{
-        // add only your social media user names 
+        // add only your social media user names do not add more it will not work properly.
+        linkedIn:'jahidulislamzim',
         gitHub:'jahidulislamzim',
         facebook:'jahidulislamzim43',
-        linkedIn:'jahidulislamzim',
         twitter:'jahidul_zim',
         behance:'jahidul-islam',
         dribbble:'jahidul-islam',
@@ -32,12 +32,13 @@ const myInfo = {
     bio:'An aspiring MERN Stack Developer.I lost myself when I dive into the codes. I am a professional web designer and developer.No project is too big or too small for me. Recently I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap, Jquery, React JS, Next JS, Node JS, Express JS, Mongo DB.Resourceful Web Developer lends hands-on approach to customizing web presence strategy. More than 1+ years of experience working closely with Web Development to outline organizational needs and translate them into extensive lines of code that support objectives. ',
 
     age:'19+',
-    education:'pora pore ki hobe',
+    position: 'FrontEnd Engineer',
+    qualification:'Web Programming-CS50',
     languages:'bangla and english',
-    experience:'1+',
+    experience:'1 year',
     completedProject:'10+',
     happyClients:'10+',
-    awardsWon:'1+'
+    awardsWon:'1'
 }
 
 
@@ -47,28 +48,52 @@ const skills = [
         level:'Expart'
     },
     {
-        title:'JavaScript',
-        level:'junior'
+        title:'CSS',
+        level:'Expart'
     },
     {
-        title:'MongoDB',
+        title:'Bootstrap',
+        level:'Expart'
+    },
+    {
+        title:'Tailwind CSS',
+        level:'Expart'
+    },
+    {
+        title:'JavaScript',
+        level:'Expart'
+    },
+    {
+        title:'React JS',
+        level:'Expart'
+    },
+    {
+        title:'Next JS',
         level:'Mid Level'
     },
     {
-        title:'HTML',
+        title:'Meterial UI',
         level:'Expart'
     },
     {
-        title:'HTML',
+        title:'GitHub',
         level:'Expart'
     },
     {
-        title:'HTML',
-        level:'Expart'
+        title:'FireBase',
+        level:'Mid Level'
     },
     {
-        title:'HTML',
-        level:'Expart'
+        title:'Express JS',
+        level:'Mid Level'
+    },
+    {
+        title:'Node JS',
+        level:'Mid Level'
+    },
+    {
+        title:'MongoDB',
+        level:'junior'
     },
 ]
 
@@ -76,44 +101,44 @@ const skills = [
 const projects = [
     {
         title:'project-01',
-        details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
-        source:'https://github.com/lukinoo/math-resource',
-        live:'https://github.com/lukinoo/math-resource',
+        details:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to.`, 
+        source:'https://github.com/jahidulislamzim',
+        live:'https://jahidulislamzim.netlify.app/',
         image:'DemoProject01.webp'
     },
     {
-        title:'project-01',
-        details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
-        source:'https://github.com/lukinoo/math-resource',
-        live:'https://github.com/lukinoo/math-resource',
+        title:'project-02',
+        details:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to.`, 
+        source:'https://github.com/jahidulislamzim',
+        live:'https://jahidulislamzim.netlify.app/',
         image:'DemoProject02.webp'
     },
     {
-        title:'project-01',
-        details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas will enhance your Christmas...`, 
-        source:'https://github.com/lukinoo/math-resource',
-        live:'https://github.com/lukinoo/math-resource',
+        title:'project-03',
+        details:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to.`, 
+        source:'https://github.com/jahidulislamzim',
+        live:'https://jahidulislamzim.netlify.app/',
         image:'DemoProject03.webp'
     },
     {
-        title:'project-01',
-        details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
-        source:'https://github.com/lukinoo/math-resource',
-        live:'https://github.com/lukinoo/math-resource',
+        title:'project-04',
+        details:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to.`, 
+        source:'https://github.com/jahidulislamzim',
+        live:'https://jahidulislamzim.netlify.app/',
         image:'DemoProject04.webp'
     },
     {
-        title:'project-01',
-        details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
-        source:'https://github.com/lukinoo/math-resource',
-        live:'https://github.com/lukinoo/math-resource',
+        title:'project-05',
+        details:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to.`, 
+        source:'https://github.com/jahidulislamzim',
+        live:'https://jahidulislamzim.netlify.app/',
         image:'DemoProject05.webp'
     },
     {
-        title:'project-01',
-        details:`Let's spread the joy , here is Christmas , the most awaited day of the year. Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas...`, 
-        source:'https://github.com/lukinoo/math-resource',
-        live:'https://github.com/lukinoo/math-resource',
+        title:'project-06',
+        details:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to.`, 
+        source:'https://github.com/jahidulislamzim',
+        live:'https://jahidulislamzim.netlify.app/',
         image:'DemoProject06.webp'
     },
     
@@ -121,11 +146,12 @@ const projects = [
 
 
 const contact = {
-    phone:'+8801700000000',
+    phone:'+8801780115943',
     email:'jahidulislamzim845@gmail.com',
     location:'rangpur, Kurigram, Bangladesh',
-    serviceId:'',
-    templateId:''
+    serviceId:'service_pus8j8k',
+    templateId:'template_v709mo3',
+    publicKey: '1cSlHB3iMQ-aGi_J0'
 }
 
 

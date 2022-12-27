@@ -19,7 +19,8 @@
   cursor: pointer;
   border-radius: 1rem;
   transition: all .5s;
-  color:var(--text)
+  color:var(--text);
+  text-align: center;
 }
 
 .skill:hover {
