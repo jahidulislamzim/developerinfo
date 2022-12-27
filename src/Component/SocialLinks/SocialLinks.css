@@ -64,7 +64,7 @@
   
   
   .socialIconBox:hover .icon i{
-    color: #fff;
+    color: var(--text);
   }
   
   .socialIconBox span {
