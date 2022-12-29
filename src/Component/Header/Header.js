@@ -32,13 +32,13 @@ const Header = () => {
             <a href="#about" className="links">
               about
             </a>
-            <a href="#h" className="links">
+            <a href="#skills" className="links">
               skills
             </a>
-            <a href="#h" className="links">
+            <a href="#projects" className="links">
               projects
             </a>
-            <a href="#h" className="links">
+            <a href="#contact" className="links">
               contact
             </a>
           </div>
@@ -79,9 +79,9 @@ const Header = () => {
           <nav className={click ? "navLinks" : "navLinks close"}>
             <a href="#home" className="links">home</a>
             <a href="#about" className="links">about</a>
-            <a href="#h" className="links">skills</a>
-            <a href="#h" className="links">projects</a>
-            <a href="#h" className="links">contact</a>
+            <a href="#skills" className="links">skills</a>
+            <a href="#projects" className="links">projects</a>
+            <a href="#cibtact" className="links">contact</a>
           </nav>
         </div>
       </div>

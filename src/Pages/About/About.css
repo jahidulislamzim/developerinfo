@@ -7,8 +7,8 @@
 
 .aboutWrapper{
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 45% 50%;
+    gap:5%;
 }
 
 .aboutMe{
@@ -68,7 +68,7 @@
 }
 
 
-@media only screen and (max-width:575.98px){
+@media only screen and (max-width:991.98px){
     .aboutWrapper{
         grid-template-columns:1fr;
         gap: 8%;
@@ -80,6 +80,11 @@
     .aboutCard {
         padding: 1.2rem;
     }
+}
+
+
+@media only screen and (max-width:575.98px){
+   
     
     .aboutMe{
         font-size: 1.7rem;

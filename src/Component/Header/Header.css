@@ -204,20 +204,7 @@
     .resNavBar .navBody .navLinks .links:hover::after {
         width: 100%;
     }
-}
 
-@media only screen and (max-width:575.98px){
-
-    .logoBox a{
-        font-size: 1.8rem;
-    }
-    .navbar{
-        padding:1rem 0rem;
-        
-    }
-    .res-nav-bar .nav-body .nav-link a{
-        font-size: 2rem;
-    }
     .menu-btn__burger {
         width: 2.5rem;
         height: 0.2rem;
@@ -232,6 +219,20 @@
     .darkLight{
         margin-left: 0rem;
         margin-right: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:575.98px){
+
+    .logoBox a{
+        font-size: 1.8rem;
+    }
+    .navbar{
+        padding:1rem 0rem;
+        
+    }
+    .res-nav-bar .nav-body .nav-link a{
+        font-size: 2rem;
     }
 }
 @media only screen and (max-width:320.98px){
