@@ -52,8 +52,7 @@ html::-webkit-scrollbar-thumb {
 
 
 .container {
-  width: 86%;
-  min-height: 80vh;
+  width:170rem;
   margin: auto;
   align-items: center;
 }
@@ -93,3 +92,11 @@ html::-webkit-scrollbar-thumb {
   margin-right: 1.5rem;
   color: var(--primary)
 }
+
+@media only screen and (max-width:1699.98px){
+  .container {
+    width:80%;
+    margin: auto;
+    align-items: center;
+  }
+} 
