@@ -23,8 +23,9 @@ const SocialLinks = (props) => {
   return (
     <div>
       {links.slice(0, props.count).map((element, index) => (
+
         <a
-          href="#f"
+          href={ element.url}
           className={`socialIconBox ${element.name}`}
           rel="noopener noreferrer"
           key={index}

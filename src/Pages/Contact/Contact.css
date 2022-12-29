@@ -30,6 +30,9 @@
     color: var(--primary);
 }
 
+.contactBox .info{
+    margin-bottom: 2rem;
+}
 
 .contactBox .info h3 {
     padding: 1rem 0;
@@ -87,7 +90,7 @@
     display: inline-block;
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
-    color:var(--text)
+    color: var(--text)
 }
 
 .contactWrapper form .error-message .error-icon {
@@ -107,11 +110,29 @@
 }
 
 .swal-button:hover {
-    background-color: transparent!important;
-    color:var(--primary)
+    background-color: transparent !important;
+    color: var(--primary)
 }
 
-@media only screen and (max-width:991.98px){
+
+
+
+
+
+
+@media only screen and (max-width:1199.98px) {
+    .contactWrapper {
+        grid-template-columns: 40% 50%;
+        gap: 5%;
+    }
+
+    .contactBox {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media only screen and (max-width:991.98px) {
     .contactWrapper {
         grid-template-columns: 1fr;
         gap: 0%;
@@ -120,6 +141,7 @@
     .contactBox {
         padding: 3rem;
     }
+
     .contactWrapper form .box {
         width: 100%;
     }

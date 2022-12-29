@@ -142,7 +142,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div>
+          <div >
             <SocialLinks />
           </div>
         </article>

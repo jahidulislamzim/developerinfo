@@ -53,7 +53,8 @@ html::-webkit-scrollbar-thumb {
 
 .container {
   width:170rem;
-  margin: auto;
+  min-height: 80vh;
+  margin:auto;
   align-items: center;
 }
 

@@ -77,3 +77,29 @@
   }
  
   
+
+
+  @media only screen and (max-width:575.98px){
+      
+.socialIconBox {
+  height: 4rem;
+  width: 4rem;
+}
+
+.socialIconBox:hover {
+  width: 15rem;
+}
+
+.socialIconBox .icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.socialIconBox .icon i {
+  font-size: 1.8rem;
+}
+.socialIconBox span {
+  font-size: 1.8rem;
+}
+
+  }

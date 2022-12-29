@@ -12,7 +12,7 @@ const myInfo = {
   ],
 
   SocialLinks: {
-    // add only your social media user names do not add more it will not work properly.
+    // add only your social media links with https. and  do not add more  links it may not work properly.
     linkedIn: "jahidulislamzim",
     gitHub: "jahidulislamzim",
     facebook: "jahidulislamzim43",
@@ -40,6 +40,8 @@ const myInfo = {
   awardsWon: "1",
 };
 
+
+// you can add more skills if you want 
 const skills = [
   {
     title: "HTML",
