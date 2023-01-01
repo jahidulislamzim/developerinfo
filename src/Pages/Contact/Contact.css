@@ -85,9 +85,10 @@
 
 
 .contactWrapper form .error-message {
+    width: 90%;
     font-size: 1.6rem;
     background-color: var(--error);
-    display: inline-block;
+    display:block;
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     color: var(--text)

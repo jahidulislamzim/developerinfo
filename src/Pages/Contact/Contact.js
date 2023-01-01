@@ -26,7 +26,7 @@ const Contact = () => {
         <p className="error-message">
           {" "}
           Input Correct Email Formate{" "}
-          <i class="fa-light fa-triangle-exclamation"></i>
+          <i className="fa-light fa-triangle-exclamation"/>
         </p>
       );
     }
