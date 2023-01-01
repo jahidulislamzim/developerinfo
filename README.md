@@ -118,3 +118,5 @@ Copy build folder and deploy your site and enjoy. You can deploy your site in ne
 
 # Note
 If you're having trouble understanding the procedure, watch the video guide.
+
+
